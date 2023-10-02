@@ -56,7 +56,7 @@ let button = document.querySelector(".btn");
 
 button.addEventListener("click", () => {
   Array.from(boxes).forEach((element) => {
-    element.innerHTML = " ";
+    element.innerHTML = "";
     
   });
   turn  = "X"
